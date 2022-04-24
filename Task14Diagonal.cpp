@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
-void diagonal(int matrixx[][4])
+void diagonal(float matrixx[][4])
 {
     for (int i = 0; i < 4; i++)
     {
@@ -11,7 +11,7 @@ void diagonal(int matrixx[][4])
         }
     }
 }
-void print(int matrixx[][4])
+void print(float matrixx[][4])
 {
     for (int i = 0; i < 4; i++)
     {
@@ -25,7 +25,7 @@ void print(int matrixx[][4])
 int main()
 {
     cout << "Diagonal"<<endl;
-    int matrixx[4][4];
+    float matrixx[4][4];
     cout << "Enter the data" << endl;
     for (int i = 0; i < 4; i++)
     {
